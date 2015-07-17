@@ -3,5 +3,8 @@ path = {
     imgSource: 'img-source/**/*',
 
     css: 'style/*.css',
-    cssBuild: 'build/style'
+    cssBuild: 'build/style',
+
+    js: 'scripts/**/*.js',
+    jsBuild: 'build/scripts'
 };
