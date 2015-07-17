@@ -6,5 +6,8 @@ path = {
     cssBuild: 'build/style',
 
     js: 'scripts/**/*.js',
-    jsBuild: 'build/scripts'
+    jsBuild: 'build/scripts',
+
+    assets: ['img', 'fonts'],
+    assetsBuild: 'build'
 };
