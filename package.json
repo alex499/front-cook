@@ -1,0 +1,31 @@
+{
+  "name": "front-cook",
+  "version": "1.0.0",
+  "description": "Build front-end project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex499/front-cook.git"
+  },
+  "keywords": [
+    "frontend",
+    "gulp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex499/front-cook/issues"
+  },
+  "homepage": "https://github.com/alex499/front-cook#readme",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0",
+    "imagemin-jpegtran": "^4.3.0",
+    "imagemin-optipng": "^4.3.0",
+    "imagemin-pngquant": "^4.1.2"
+  }
+}
