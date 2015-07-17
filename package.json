@@ -21,11 +21,17 @@
   },
   "homepage": "https://github.com/alex499/front-cook#readme",
   "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-imagemin": "^2.3.0",
+    "gulp-more-css": "^1.0.0",
+    "gulp-postcss": "^5.1.9",
+    "gulp-sourcemaps": "^1.5.2",
     "imagemin-jpegtran": "^4.3.0",
     "imagemin-optipng": "^4.3.0",
-    "imagemin-pngquant": "^4.1.2"
+    "imagemin-pngquant": "^4.1.2",
+    "postcss-assets": "^2.1.2",
+    "postcss-nested": "^0.3.2"
   }
 }

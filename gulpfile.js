@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var path = require('./conf');
 var path = require('./task/images.js');
+var path = require('./task/css.js');
 
 
 gulp.task('init', function() {
