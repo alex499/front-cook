@@ -1,0 +1,71 @@
+{
+  /*
+   * ENFORCING OPTIONS
+   * =================
+   */
+  // Requires you to always put curly braces around blocks in loops and conditionals.
+  "curly": true,
+  // Prohibits the use of == and != in favor of === and !==.
+  "eqeqeq": true,
+  // Enables syntax first defined in the ECMAScript 5.1 specification
+  "es5": true,
+  // suppresses warnings about declaring variables inside of control structures while accessing them later from the outside
+  "funcscope": false,
+  // Prohibit use of a variable before it is defined.
+  "latedef": true,
+  // Lets you control cyclomatic complexity throughout your code
+  "maxcomplexity": 10,
+  // Lets you control how nested do you want your blocks to be
+  "maxdepth": 4,
+  //Lets you set the max number of formal parameters allowed per function
+  "maxparams": 3,
+  // Requires all functions to run in ECMAScript 5's strict mode
+  "strict": true,
+  // Prohibits the use of explicitly undeclared variables.
+  "undef": true,
+  // Warns when you define and never use your variables
+  "unused": true,
+
+  /*
+   * RELAXING OPTIONS
+   * =================
+   */
+  // Suppresses warnings about missing semicolons
+  "asi": false,
+  // suppresses warnings about the use of assignments in cases where comparisons are expected
+  "boss": false,
+  // Suppresses warnings about the debugger statements in your code.
+  "debug": false,
+  //Suppresses warnings about == null comparisons.
+  "eqnull": true,
+
+  /*
+   * DEPRECATED
+   * ===========
+   */
+  // Allows you to force all variable names to use either camelCase style or UPPER_CASE
+  "camelcase": true,
+  // Sets a specific tab width for your code.
+  "indent": 2,
+  // Enforces the consistency of quotation marks used throughout your code.
+  "quotmark": "single",
+  // Lets you set the maximum length of a line.
+  "maxlen": 80,
+  // Requires you to capitalize names of constructor functions
+  "newcap": true,
+
+  /*
+   * ENVIRONMENTS
+   * =============
+   */
+  // Globals exposed by modern browsers
+  "browser": true,
+  // Defines globals that are usually used for logging poor-man's debugging: console, alert, etc.
+  "devel": true,
+  // Defines globals exposed by the jQuery JavaScript library.
+  "jquery": true,
+  // defines globals available when your code is running inside of the Node runtime environment.
+  "node": true,
+  // Tells JSHint that your code uses ECMAScript 6 specific syntax
+  "esnext": true
+}
