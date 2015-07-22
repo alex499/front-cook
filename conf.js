@@ -8,6 +8,9 @@ path = {
     js: 'scripts/**/*.js',
     jsBuild: 'build/scripts',
 
-    assets: ['img', 'fonts'],
+    html: 'html/**/*.html',
+    htmlBuild: 'build/html',
+
+    assets: ['img', 'fonts', 'vendors', 'video'],
     assetsBuild: 'build'
 };
