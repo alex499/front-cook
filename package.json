@@ -22,6 +22,7 @@
   "homepage": "https://github.com/alex499/front-cook#readme",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.8.0",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-imagemin": "^2.3.0",

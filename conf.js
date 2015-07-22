@@ -12,5 +12,7 @@ path = {
     htmlBuild: 'build/html',
 
     assets: ['img', 'fonts', 'vendors', 'video'],
-    assetsBuild: 'build'
+    assetsBuild: 'build',
+
+    server: 'build/**/*'
 };
