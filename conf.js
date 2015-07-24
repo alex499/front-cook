@@ -1,4 +1,4 @@
-path = {
+var path = {
     img: 'img',
     imgSource: 'img-source/**/*',
 
@@ -14,5 +14,8 @@ path = {
     assets: ['img', 'fonts', 'vendors', 'video'],
     assetsBuild: 'build',
 
-    server: 'build/**/*'
+    server: {
+        baseDir: 'build/**/*',
+        proxyUrl: 'localhost:3000'
+    }
 };
