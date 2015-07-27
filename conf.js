@@ -2,8 +2,12 @@ var path = {
     img: 'img',
     imgSource: 'img-source/**/*',
 
-    css: 'style/*.css',
-    cssBuild: 'build/style',
+    css: {
+        src: 'src/blocks/**/*.css',
+        img: 'src/blocks/**/*',
+        vendor: 'src/vendors/style/**/*.js',
+        build: 'build/style',
+    },
 
     js: {
         src: 'src/blocks/**/*.js',
