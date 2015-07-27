@@ -15,8 +15,10 @@ var path = {
         build: 'build/scripts'
     },
 
-    html: 'html/**/*.html',
-    htmlBuild: 'build/html',
+    template: {
+        src: 'src/**/*.jade',
+        build: 'build/template',
+    },
 
     assets: ['img', 'fonts', 'vendors', 'video'],
     assetsBuild: 'build',
