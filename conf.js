@@ -5,8 +5,11 @@ var path = {
     css: 'style/*.css',
     cssBuild: 'build/style',
 
-    js: 'scripts/**/*.js',
-    jsBuild: 'build/scripts',
+    js: {
+        src: 'src/blocks/**/*.js',
+        vendor: 'src/vendors/scripts/**/*.js',
+        build: 'build/scripts'
+    },
 
     html: 'html/**/*.html',
     htmlBuild: 'build/html',
@@ -19,3 +22,5 @@ var path = {
         proxyUrl: 'localhost:3000'
     }
 };
+
+module.exports = path;
